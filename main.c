@@ -2,6 +2,8 @@
 
 #include "askname.h"
 
+void add (int i, int b);
+
 int main(int argc, char **argv)
 {
     char first[255], last[255];
@@ -10,4 +12,9 @@ int main(int argc, char **argv)
 
     printf("Hello, %s %s!\n", first, last);
     return 0;
+}
+
+void add (int i, int b)
+{
+	
 }
